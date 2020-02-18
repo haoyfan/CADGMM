@@ -1,6 +1,6 @@
 ·
 
-# CADGMM (The code is comming soon...)
+# CADGMM (The code is under cleaning...)
 
 Implementation code of the algorithm described in paper "CADGMM: Correlation-aware Deep Generative Model for Unsupervised Anomaly Detection". 
 
