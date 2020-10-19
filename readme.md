@@ -1,8 +1,8 @@
 ·
 
-# CADGMM (The code is under cleaning...)
 
-Implementation code of the algorithm described in paper "CADGMM: Correlation-aware Deep Generative Model for Unsupervised Anomaly Detection". 
+Implementation code and data of the algorithm described in paper "[CADGMM: Correlation-aware Deep Generative Model for Unsupervised Anomaly Detection](https://arxiv.org/abs/2002.07349)". 
+
 
 
 <p align="center">
@@ -31,6 +31,35 @@ Unsupervised anomaly detection aims to identify anomalous samples from highly co
 <p align="center">
   <img src="_images/results.jpg" width="640"  />
 </p>
+
+
+# Prerequisites
+Tested on
+* python 3.6.5
+* pytorch 0.4.0
+* h5py  2.10.0
+* joblib	0.13.2
+* keras	2.2.0
+* matplotlib	3.1.1
+* numpy	1.17.1
+* pillow	6.2.1
+* scipy	1.3.2
+* seaborn 0.9.0
+* tensorboard	1.10.0
+* tensorboardx	1.9
+* tensorflow-gpu	1.14.0
+
+
+# Run
+```bash
+python main.py --dataset=kdd --v=0 --K=4 --KNN=15
+```
+	#--dataset:/kdd/arrhythmia/satellite
+	#--v: The noise ratio of train data
+	#--K: GMM membership number
+	#--KNN: k-value of KNN 
+
+
 
 ## Cite:
 
